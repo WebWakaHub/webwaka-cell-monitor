@@ -16,7 +16,10 @@
     "observability-diagnostics"
   ],
   "license": "UNLICENSED",
-  "dependencies": {},
+  "dependencies": {
+    "@webwaka/organelle-instrumentation-probe": "workspace:*",
+    "@webwaka/organelle-telemetry-collector": "workspace:*"
+  },
   "devDependencies": {
     "typescript": "^5.0.0",
     "jest": "^29.0.0",
